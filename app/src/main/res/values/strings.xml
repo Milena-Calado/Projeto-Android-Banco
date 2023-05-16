@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Banco</string>
+    <string name="btnContas">Contas</string>
+    <string name="btnTransferir">Transferir</string>
+    <string name="btnDebitar">Debitar</string>
+    <string name="btnCreditar">Creditar</string>
+    <string name="btnPesquisar">Pesquisar</string>
+    <string name="btnClientes">Clientes</string>
+    <string name="totalDinheiroBanco">Total no Banco:</string>
+    <string name="btn_add_clientes_label">Adicionar Cliente</string>
+    <string name="btnEditar">Editar</string>
+
+    <string name="txt_add_cliente_nome">Nome</string>
+    <string name="edt_add_cliente_nome">Digite um nome</string>
+    <string name="txt_add_cliente_cpf">CPF</string>
+    <string name="edt_add_cliente_cpf">Digite um CPF</string>
+    <string name="btn_add_cliente_atualizar">Atualizar</string>
+    <string name="btn_add_cliente_remover">Remover</string>
+
+    <string name="btn_Adiciona">Adicionar Conta</string>
+
+    <string name="txt_add_conta_numero">Número da Conta</string>
+    <string name="edt_add_conta_numero">Digite o número da conta</string>
+    <string name="txt_add_conta_nome">Nome</string>
+    <string name="edt_add_conta_nome">Digite um nome</string>
+    <string name="txt_add_conta_cpf">CPF</string>
+    <string name="edt_add_conta_cpf">Digite um CPF</string>
+    <string name="txt_add_conta_saldo">Saldo</string>
+    <string name="edt_add_conta_saldo">Digite o saldo</string>
+    <string name="btnInserir">Inserir</string>
+    <string name="btn_add_conta_remover">Remover</string>
+
+    <string name="edt_pesquisar_input">Digite algum termo para pesquisar</string>
+    <string name="rdbtn_pesquisar_nome">Nome</string>
+    <string name="rdbtn_pesquisar_cpf">CPF</string>
+    <string name="rdbtn_pesquisar_numero">Número da Conta</string>
+    <string name="btn_pesquisar_pesquisar">Pesquisar</string>
+
+    <string name="txt_tipoOperacao">TRANSFERIR</string>
+    <string name="btn_Operacao">Transferir</string>
+
+    <string name="txt_numeroContaOrigem">Número da Conta Origem</string>
+    <string name="edt_numeroContaOrigem">Digite o número da conta</string>
+    <string name="txt_numeroContaDestino">Número da Conta Destino</string>
+    <string name="edt_numeroContaDestino">Digite o número da conta</string>
+    <string name="txt_valor">Valor</string>
+    <string name="edt_valor">Digite o valor a ser</string>
+
+    <string name="txt_tipoOperacao_debitar">DEBITAR</string>
+    <string name="btn_Operacao_debitar">Debitar</string>
+
+    <string name="txt_tipoOperacao_creditar">CREDITAR</string>
+    <string name="btn_Operacao_creditar">Creditar</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_add_conta_numero"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edt_add_conta_numero"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_add_conta_nome"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edt_add_conta_nome"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_add_conta_cpf"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edt_add_conta_cpf"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_add_conta_saldo"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/saldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edt_add_conta_saldo"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/btnEditar"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnRemover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/btn_add_conta_remover"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

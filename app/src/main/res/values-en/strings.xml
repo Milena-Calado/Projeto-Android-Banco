@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bank</string>
+    <string name="btnContas">Accounts</string>
+    <string name="btnTransferir">Transfer</string>
+    <string name="btnDebitar">Debit</string>
+    <string name="btnCreditar">Credit</string>
+    <string name="btnPesquisar">Search</string>
+    <string name="btnClientes">Client</string>
+    <string name="totalDinheiroBanco">Total in bank:</string>
+    <string name="btnEditar">Edit</string>
+
+    <string name="btn_add_clientes_label">Add Client</string>
+
+    <string name="txt_add_cliente_nome">Name</string>
+    <string name="edt_add_cliente_nome">Input a name</string>
+    <string name="txt_add_cliente_cpf">CPF</string>
+    <string name="edt_add_cliente_cpf">Input CPF number</string>
+    <string name="btn_add_cliente_atualizar">Update</string>
+    <string name="btn_add_cliente_remover">Remove</string>
+
+    <string name="btn_Adiciona">Add Account</string>
+
+    <string name="txt_add_conta_numero">Account Number</string>
+    <string name="edt_add_conta_numero">Input account number</string>
+    <string name="txt_add_conta_nome">Name</string>
+    <string name="edt_add_conta_nome">Input name</string>
+    <string name="txt_add_conta_cpf">CPF</string>
+    <string name="edt_add_conta_cpf">Input CPF number</string>
+    <string name="txt_add_conta_saldo">Balance</string>
+    <string name="edt_add_conta_saldo">Input account\'s balance</string>
+    <string name="btnInserir">Insert</string>
+    <string name="btn_add_conta_remover">Remove</string>
+
+    <string name="edt_pesquisar_input">Input search value</string>
+    <string name="rdbtn_pesquisar_nome">Name</string>
+    <string name="rdbtn_pesquisar_cpf">CPF</string>
+    <string name="rdbtn_pesquisar_numero">Account number</string>
+    <string name="btn_pesquisar_pesquisar">Search</string>
+
+    <string name="txt_tipoOperacao">TRANSFER</string>
+    <string name="btn_Operacao">Transfer</string>
+
+    <string name="txt_numeroContaOrigem">Origin account number</string>
+    <string name="edt_numeroContaOrigem">Input account number</string>
+    <string name="txt_numeroContaDestino">Destination account number</string>
+    <string name="edt_numeroContaDestino">Input account number</string>
+    <string name="txt_valor">Amount</string>
+    <string name="edt_valor">Input amount to be</string>
+
+    <string name="txt_tipoOperacao_debitar">DEBIT</string>
+    <string name="btn_Operacao_debitar">Debit</string>
+
+    <string name="txt_tipoOperacao_creditar">CREDIT</string>
+    <string name="btn_Operacao_creditar">Credit</string>
+</resources>

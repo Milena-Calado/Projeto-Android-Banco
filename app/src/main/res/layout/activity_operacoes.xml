@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipoOperacao"
+        android:text="@string/txt_tipoOperacao"
+        android:textSize="32sp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_numeroContaOrigem"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numeroContaOrigem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edt_numeroContaOrigem"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelContaDestino"
+        android:text="@string/txt_numeroContaDestino"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numeroContaDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edt_numeroContaDestino"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_valor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edt_valor"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnOperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/btn_Operacao"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
